@@ -1,0 +1,17 @@
+target/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+*.class
+hs_err_pid*
+replay_pid*
+.cursor/
+docs/
