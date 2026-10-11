@@ -1,17 +1,31 @@
+# Maven
 target/
+*.class
+*.jar
+*.war
+
+# IntelliJ IDEA
 .idea/
 *.iml
-.classpath
-.project
-.settings/
+*.iws
+*.ipr
+
+# VS Code
 .vscode/
-*.log
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Environment / Secrets
 .env
-.env.*
-!.env.example
-*.class
-hs_err_pid*
-replay_pid*
-.cursor/
-docs/
+*.env.local
+application-local.yml
+application-secrets.yml
+
+# Spring Boot
+spring-modulith-docs/
+
+# Logs
+*.log
+logs/
